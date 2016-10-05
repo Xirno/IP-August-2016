@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{47553BAF-E1A1-4AB7-8A6D-976A38C3B2E6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>IP_Aus_Dec_2016.My.MyApplication</StartupObject>
+    <RootNamespace>IP_Aus_Dec_2016</RootNamespace>
+    <AssemblyName>IP-Aus-Dec-2016</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>IP-Aus-Dec-2016.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>IP-Aus-Dec-2016.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>IP-Aus-Dec-2016.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>IP-Aus-Dec-2016.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="%281%29MainPage.Designer.vb">
+      <DependentUpon>%281%29MainPage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="%281%29MainPage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%282.2%29HouseOwnerBookingForVisitor.Designer.vb">
+      <DependentUpon>%282.2%29HouseOwnerBookingForVisitor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="%282.2%29HouseOwnerBookingForVisitor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%282%29HouseOwnerLogin.Designer.vb">
+      <DependentUpon>%282%29HouseOwnerLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="%282%29HouseOwnerLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%282.1%29HouseOwnerProfile.Designer.vb">
+      <DependentUpon>%282.1%29HouseOwnerProfile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="%282.1%29HouseOwnerProfile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%282.1.1%29HouseOwnerEditProfile.Designer.vb">
+      <DependentUpon>%282.1.1%29HouseOwnerEditProfile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="%282.1.1%29HouseOwnerEditProfile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="%284%29Security.Designer.vb">
+      <DependentUpon>%284%29Security.vb</DependentUpon>
+    </Compile>
+    <Compile Include="%284%29Security.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%283%29Visitor.Designer.vb">
+      <DependentUpon>%283%29Visitor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="%283%29Visitor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%283.2%29VisitorApplyPass.Designer.vb">
+      <DependentUpon>%283.2%29VisitorApplyPass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="%283.2%29VisitorApplyPass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%283.1.1%29VisitorEditProfile.Designer.vb">
+      <DependentUpon>%283.1.1%29VisitorEditProfile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="%283.1.1%29VisitorEditProfile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%283.1%29VisitorProfile.Designer.vb">
+      <DependentUpon>%283.1%29VisitorProfile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="%283.1%29VisitorProfile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%283.0%29VisitorRegistration.Designer.vb">
+      <DependentUpon>%283.0%29VisitorRegistration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="%283.0%29VisitorRegistration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%283.2.3%29VisitorApplyPassPrint.Designer.vb">
+      <DependentUpon>%283.2.3%29VisitorApplyPassPrint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="%283.2.3%29VisitorApplyPassPrint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%283.3%29VisitorHistory.Designer.vb">
+      <DependentUpon>%283.3%29VisitorHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="%283.3%29VisitorHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%283.2.1%29VisitorAppliedPass.Designer.vb">
+      <DependentUpon>%283.2.1%29VisitorAppliedPass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="%283.2.1%29VisitorAppliedPass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SecurityApproval.Designer.vb">
+      <DependentUpon>SecurityApproval.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SecurityApproval.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SecurityControlPanel.Designer.vb">
+      <DependentUpon>SecurityControlPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SecurityControlPanel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SecurityVerification.Designer.vb">
+      <DependentUpon>SecurityVerification.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SecurityVerification.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisitorFromHouseOwner.Designer.vb">
+      <DependentUpon>VisitorFromHouseOwner.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VisitorFromHouseOwner.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%283.2.2%29VisitorGatePass.Designer.vb">
+      <DependentUpon>%283.2.2%29VisitorGatePass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="%283.2.2%29VisitorGatePass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="%281%29MainPage.resx">
+      <DependentUpon>%281%29MainPage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%283.2.3%29VisitorApplyPassPrint.resx">
+      <DependentUpon>%283.2.3%29VisitorApplyPassPrint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%282.2%29HouseOwnerBookingForVisitor.resx">
+      <DependentUpon>%282.2%29HouseOwnerBookingForVisitor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%282%29HouseOwnerLogin.resx">
+      <DependentUpon>%282%29HouseOwnerLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%282.1%29HouseOwnerProfile.resx">
+      <DependentUpon>%282.1%29HouseOwnerProfile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%282.1.1%29HouseOwnerEditProfile.resx">
+      <DependentUpon>%282.1.1%29HouseOwnerEditProfile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%284%29Security.resx">
+      <DependentUpon>%284%29Security.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%283%29Visitor.resx">
+      <DependentUpon>%283%29Visitor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%283.2%29VisitorApplyPass.resx">
+      <DependentUpon>%283.2%29VisitorApplyPass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%283.1.1%29VisitorEditProfile.resx">
+      <DependentUpon>%283.1.1%29VisitorEditProfile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%283.1%29VisitorProfile.resx">
+      <DependentUpon>%283.1%29VisitorProfile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%283.0%29VisitorRegistration.resx">
+      <DependentUpon>%283.0%29VisitorRegistration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%283.3%29VisitorHistory.resx">
+      <DependentUpon>%283.3%29VisitorHistory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%283.2.1%29VisitorAppliedPass.resx">
+      <DependentUpon>%283.2.1%29VisitorAppliedPass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SecurityApproval.resx">
+      <DependentUpon>SecurityApproval.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SecurityControlPanel.resx">
+      <DependentUpon>SecurityControlPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SecurityVerification.resx">
+      <DependentUpon>SecurityVerification.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisitorFromHouseOwner.resx">
+      <DependentUpon>VisitorFromHouseOwner.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%283.2.2%29VisitorGatePass.resx">
+      <DependentUpon>%283.2.2%29VisitorGatePass.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
