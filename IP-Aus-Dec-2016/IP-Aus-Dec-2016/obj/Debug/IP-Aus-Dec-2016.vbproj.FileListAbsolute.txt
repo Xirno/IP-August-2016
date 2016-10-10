@@ -5,7 +5,6 @@ D:\IP August 2016\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2
 D:\IP August 2016\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.VisitorApplyPassPrint.resources
 D:\IP August 2016\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.Resources.resources
 D:\IP August 2016\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.Security.resources
-D:\IP August 2016\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.Visitor.resources
 D:\IP August 2016\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.VisitorApplyPass.resources
 D:\IP August 2016\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.VisitorEditProfile.resources
 D:\IP August 2016\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.VisitorProfile.resources
@@ -99,35 +98,19 @@ C:\Users\1\Desktop\August 2016\IP August 2016\New folder\IP 2016\IP-Aus-Dec-2016
 D:\IP August 2016\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP-Aus-Dec-2016.vbprojResolveAssemblyReference.cache
 D:\IP August 2016\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.HouseOwnerBookingForVisitor.resources
 D:\IP August 2016\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.HouseOwnerLogin.resources
-D:\IP August 2016\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.Form2.resources
 D:\IP August 2016\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.SecurityApproval.resources
 D:\IP August 2016\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.SecurityControlPanel.resources
 D:\IP August 2016\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.SecurityVerification.resources
 D:\IP August 2016\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.VisitorGatePass.resources
+D:\IP August 2016\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.HouseOwnerProfile.resources
+D:\IP August 2016\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.HouseOwnerEditProfile.resources
+D:\IP August 2016\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.FindPassword.resources
+D:\IP August 2016\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.FoundPassword.resources
+D:\IP August 2016\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.HouseOwnerMessage.resources
+D:\IP August 2016\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.Login.resources
+D:\IP August 2016\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.Security_CurrentVisitor.resources
+D:\IP August 2016\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.Security_VisitorEntry.resources
+D:\IP August 2016\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.Security_VisitorRequest.resources
 C:\Users\15011471\Desktop\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP-Aus-Dec-2016.exe
 C:\Users\15011471\Desktop\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP-Aus-Dec-2016.xml
 C:\Users\15011471\Desktop\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP-Aus-Dec-2016.pdb
-C:\Users\15011471\Desktop\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.MainPage.resources
-C:\Users\15011471\Desktop\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.VisitorApplyPassPrint.resources
-C:\Users\15011471\Desktop\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.HouseOwnerBookingForVisitor.resources
-C:\Users\15011471\Desktop\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.HouseOwnerLogin.resources
-C:\Users\15011471\Desktop\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.HouseOwnerProfile.resources
-C:\Users\15011471\Desktop\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.HouseOwnerEditProfile.resources
-C:\Users\15011471\Desktop\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.Resources.resources
-C:\Users\15011471\Desktop\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.Security.resources
-C:\Users\15011471\Desktop\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.Visitor.resources
-C:\Users\15011471\Desktop\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.VisitorApplyPass.resources
-C:\Users\15011471\Desktop\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.VisitorEditProfile.resources
-C:\Users\15011471\Desktop\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.VisitorProfile.resources
-C:\Users\15011471\Desktop\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.VisitorRegistration.resources
-C:\Users\15011471\Desktop\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.VisitorHistory.resources
-C:\Users\15011471\Desktop\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.VisitorAppliedPass.resources
-C:\Users\15011471\Desktop\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.SecurityApproval.resources
-C:\Users\15011471\Desktop\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.SecurityControlPanel.resources
-C:\Users\15011471\Desktop\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.SecurityVerification.resources
-C:\Users\15011471\Desktop\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.VisitorFromHouseOwner.resources
-C:\Users\15011471\Desktop\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP_Aus_Dec_2016.VisitorGatePass.resources
-C:\Users\15011471\Desktop\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\obj\Debug\IP-Aus-Dec-2016.vbproj.GenerateResource.Cache
-C:\Users\15011471\Desktop\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\bin\Debug\IP-Aus-Dec-2016.exe
-C:\Users\15011471\Desktop\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\bin\Debug\IP-Aus-Dec-2016.pdb
-C:\Users\15011471\Desktop\IP 2016\IP-Aus-Dec-2016\IP-Aus-Dec-2016\bin\Debug\IP-Aus-Dec-2016.xml
