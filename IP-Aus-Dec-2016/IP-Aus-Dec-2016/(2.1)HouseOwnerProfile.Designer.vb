@@ -23,7 +23,6 @@ Partial Class HouseOwnerProfile
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.btnLogout = New System.Windows.Forms.Button()
-        Me.btnCancel = New System.Windows.Forms.Button()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -39,6 +38,7 @@ Partial Class HouseOwnerProfile
         Me.lblGivenName = New System.Windows.Forms.Label()
         Me.lblPassword = New System.Windows.Forms.Label()
         Me.lblUsername = New System.Windows.Forms.Label()
+        Me.btnCancel = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnLogout
@@ -49,15 +49,6 @@ Partial Class HouseOwnerProfile
         Me.btnLogout.TabIndex = 33
         Me.btnLogout.Text = "LogOut"
         Me.btnLogout.UseVisualStyleBackColor = True
-        '
-        'btnCancel
-        '
-        Me.btnCancel.Location = New System.Drawing.Point(362, 174)
-        Me.btnCancel.Name = "btnCancel"
-        Me.btnCancel.Size = New System.Drawing.Size(111, 77)
-        Me.btnCancel.TabIndex = 32
-        Me.btnCancel.Text = "Cancel"
-        Me.btnCancel.UseVisualStyleBackColor = True
         '
         'Label4
         '
@@ -194,6 +185,15 @@ Partial Class HouseOwnerProfile
         Me.lblUsername.TabIndex = 17
         Me.lblUsername.Text = "label"
         '
+        'btnCancel
+        '
+        Me.btnCancel.Location = New System.Drawing.Point(362, 174)
+        Me.btnCancel.Name = "btnCancel"
+        Me.btnCancel.Size = New System.Drawing.Size(111, 77)
+        Me.btnCancel.TabIndex = 32
+        Me.btnCancel.Text = "Cancel"
+        Me.btnCancel.UseVisualStyleBackColor = True
+        '
         'HouseOwnerProfile
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -223,7 +223,6 @@ Partial Class HouseOwnerProfile
 
     End Sub
     Friend WithEvents btnLogout As System.Windows.Forms.Button
-    Friend WithEvents btnCancel As System.Windows.Forms.Button
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
@@ -239,4 +238,5 @@ Partial Class HouseOwnerProfile
     Friend WithEvents lblGivenName As System.Windows.Forms.Label
     Friend WithEvents lblPassword As System.Windows.Forms.Label
     Friend WithEvents lblUsername As System.Windows.Forms.Label
+    Friend WithEvents btnCancel As System.Windows.Forms.Button
 End Class

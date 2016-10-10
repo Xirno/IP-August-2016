@@ -45,12 +45,14 @@ Partial Class VisitorProfile
         Me.lblFirstName = New System.Windows.Forms.Label()
         Me.BtnHistory = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.lblIC = New System.Windows.Forms.Label()
         Me.lblPhoto = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -275,6 +277,7 @@ Partial Class VisitorProfile
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.PictureBox1)
         Me.GroupBox1.Controls.Add(Me.Label9)
         Me.GroupBox1.Controls.Add(Me.lblIC)
         Me.GroupBox1.Controls.Add(Me.lblPhoto)
@@ -304,6 +307,16 @@ Partial Class VisitorProfile
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Visitor Profile"
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.PictureBox1.Location = New System.Drawing.Point(653, 54)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(297, 179)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 32
+        Me.PictureBox1.TabStop = False
+        '
         'Label9
         '
         Me.Label9.AutoSize = True
@@ -328,7 +341,7 @@ Partial Class VisitorProfile
         '
         Me.lblPhoto.AutoSize = True
         Me.lblPhoto.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPhoto.Location = New System.Drawing.Point(30, 51)
+        Me.lblPhoto.Location = New System.Drawing.Point(510, 75)
         Me.lblPhoto.Name = "lblPhoto"
         Me.lblPhoto.Size = New System.Drawing.Size(68, 25)
         Me.lblPhoto.TabIndex = 28
@@ -351,7 +364,7 @@ Partial Class VisitorProfile
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(139, 124)
         Me.Button2.TabIndex = 31
-        Me.Button2.Text = "HouseOwner"
+        Me.Button2.Text = "HouseOwner Message"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'VisitorProfile
@@ -370,6 +383,7 @@ Partial Class VisitorProfile
         Me.Text = "VisitorProfile"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -401,4 +415,5 @@ Partial Class VisitorProfile
     Friend WithEvents Label9 As System.Windows.Forms.Label
     Friend WithEvents lblIC As System.Windows.Forms.Label
     Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
 End Class

@@ -26,7 +26,7 @@
 
     Private Sub btnVisitor_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnVisitor.Click
 
-        Visitor.Show()
+        Login.Show()
         Me.Hide()
 
     End Sub

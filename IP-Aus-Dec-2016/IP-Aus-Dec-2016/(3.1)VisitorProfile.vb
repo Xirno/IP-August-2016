@@ -17,11 +17,10 @@ Public Class VisitorProfile
 
         VisitorApplyPass.Show()
         VisitorApplyPass.lblVisitorID.Text = lblID.Text
-        VisitorApplyPass.lblFirstName.Text = lblFirstName.Text
-        VisitorApplyPass.lblLastName.Text = lblLastName.Text
-        VisitorApplyPass.lblGender.Text = lblGender.Text
-        VisitorApplyPass.lblAddress.Text = lblVisitorAddress.Text
-        VisitorApplyPass.lblMobileNumber.Text = lblMobileNo.Text
+        'VisitorApplyPass.lblFirstName.Text = lblFirstName.Text
+        'VisitorApplyPass.lblLastName.Text = lblLastName.Text
+        'VisitorApplyPass.lblAddress.Text = lblVisitorAddress.Text
+        'VisitorApplyPass.lblMobileNumber.Text = lblMobileNo.Text
 
 
     End Sub
@@ -32,8 +31,6 @@ Public Class VisitorProfile
         lblwelcome.Text = StringPass
         '   lblpassword.Text = Visitor.txtPassword.Text
 
-
-
         Dim con As New OleDb.OleDbConnection
         Dim str As String = "Provider=Microsoft.ACE.OLEDB.12.0; Data Source=..\VisitorPass.accdb"
         con = New OleDbConnection(str)
@@ -43,6 +40,7 @@ Public Class VisitorProfile
         con.Open()
         cmd = New OleDbCommand(sql, con)
         dr = cmd.ExecuteReader()
+
 
         If dr.Read Then
 
@@ -56,8 +54,12 @@ Public Class VisitorProfile
             lblMobileNo.Text = dr("MobileNo").ToString()
             lblDateOfBirth.Text = dr("DateOfBirth").ToString()
             lblVisitorAddress.Text = dr("VisitorAddress").ToString()
+            Dim data As Byte() = DirectCast(dr("Image"), Byte())
+            Dim ms As New System.IO.MemoryStream(data)
+            PictureBox1.Image = Image.FromStream(MS)
 
         Else
+
             con.Close()
             MsgBox("Sorry, Please try again and login", MsgBoxStyle.OkOnly, "invalid Login")
             Me.Close()
@@ -70,7 +72,7 @@ Public Class VisitorProfile
     Private Sub btnLogout_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnLogout.Click
 
         MsgBox("Logged out")
-        Visitor.Show()
+        Login.Show()
         Me.Close()
     End Sub
 
@@ -89,6 +91,7 @@ Public Class VisitorProfile
     Private Sub BtnHistory_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnHistory.Click
 
         VisitorHistory.Show()
+        VisitorHistory.lblvisitorID.Text = lblID.Text
 
     End Sub
 

@@ -30,6 +30,7 @@ Partial Class MainPage
         '
         'btnHouseOwner
         '
+        Me.btnHouseOwner.Enabled = False
         Me.btnHouseOwner.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnHouseOwner.Location = New System.Drawing.Point(85, 107)
         Me.btnHouseOwner.Name = "btnHouseOwner"
@@ -40,6 +41,7 @@ Partial Class MainPage
         '
         'btnSecurity
         '
+        Me.btnSecurity.Enabled = False
         Me.btnSecurity.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnSecurity.Location = New System.Drawing.Point(85, 203)
         Me.btnSecurity.Name = "btnSecurity"
@@ -55,7 +57,7 @@ Partial Class MainPage
         Me.btnVisitor.Name = "btnVisitor"
         Me.btnVisitor.Size = New System.Drawing.Size(521, 99)
         Me.btnVisitor.TabIndex = 2
-        Me.btnVisitor.Text = "Visitor"
+        Me.btnVisitor.Text = "Login"
         Me.btnVisitor.UseVisualStyleBackColor = True
         '
         'Label1

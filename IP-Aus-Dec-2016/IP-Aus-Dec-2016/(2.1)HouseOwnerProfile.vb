@@ -36,5 +36,6 @@ Public Class HouseOwnerProfile
 
     Private Sub btnLogout_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnLogout.Click
         Me.Close()
+        Login.Show()
     End Sub
 End Class

@@ -30,7 +30,6 @@ Partial Class VisitorEditProfile
         Me.Label6 = New System.Windows.Forms.Label()
         Me.txtFirstName = New System.Windows.Forms.TextBox()
         Me.txtLastName = New System.Windows.Forms.TextBox()
-        Me.txtGender = New System.Windows.Forms.TextBox()
         Me.txtMobileNO = New System.Windows.Forms.TextBox()
         Me.txtDateOfBirth = New System.Windows.Forms.TextBox()
         Me.txtVisitorAddress = New System.Windows.Forms.TextBox()
@@ -44,6 +43,14 @@ Partial Class VisitorEditProfile
         Me.lblID2 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.txtIC = New System.Windows.Forms.TextBox()
+        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
+        Me.txtImageNme = New System.Windows.Forms.TextBox()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label2
@@ -122,14 +129,6 @@ Partial Class VisitorEditProfile
         Me.txtLastName.Size = New System.Drawing.Size(220, 31)
         Me.txtLastName.TabIndex = 10
         '
-        'txtGender
-        '
-        Me.txtGender.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtGender.Location = New System.Drawing.Point(211, 242)
-        Me.txtGender.Name = "txtGender"
-        Me.txtGender.Size = New System.Drawing.Size(220, 31)
-        Me.txtGender.TabIndex = 11
-        '
         'txtMobileNO
         '
         Me.txtMobileNO.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -157,7 +156,7 @@ Partial Class VisitorEditProfile
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(483, 190)
+        Me.Button1.Location = New System.Drawing.Point(825, 190)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(188, 129)
         Me.Button1.TabIndex = 15
@@ -167,7 +166,7 @@ Partial Class VisitorEditProfile
         'btnCancel
         '
         Me.btnCancel.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCancel.Location = New System.Drawing.Point(483, 56)
+        Me.btnCancel.Location = New System.Drawing.Point(825, 56)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(188, 136)
         Me.btnCancel.TabIndex = 16
@@ -248,11 +247,81 @@ Partial Class VisitorEditProfile
         Me.txtIC.Size = New System.Drawing.Size(220, 31)
         Me.txtIC.TabIndex = 24
         '
+        'RadioButton1
+        '
+        Me.RadioButton1.AutoSize = True
+        Me.RadioButton1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton1.Location = New System.Drawing.Point(211, 247)
+        Me.RadioButton1.Name = "RadioButton1"
+        Me.RadioButton1.Size = New System.Drawing.Size(77, 29)
+        Me.RadioButton1.TabIndex = 25
+        Me.RadioButton1.TabStop = True
+        Me.RadioButton1.Text = "Male"
+        Me.RadioButton1.UseVisualStyleBackColor = True
+        '
+        'RadioButton2
+        '
+        Me.RadioButton2.AutoSize = True
+        Me.RadioButton2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton2.Location = New System.Drawing.Point(324, 247)
+        Me.RadioButton2.Name = "RadioButton2"
+        Me.RadioButton2.Size = New System.Drawing.Size(101, 29)
+        Me.RadioButton2.TabIndex = 26
+        Me.RadioButton2.TabStop = True
+        Me.RadioButton2.Text = "Female"
+        Me.RadioButton2.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(479, 50)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(71, 96)
+        Me.Button2.TabIndex = 27
+        Me.Button2.Text = "Browse"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Button3
+        '
+        Me.Button3.Enabled = False
+        Me.Button3.Location = New System.Drawing.Point(479, 144)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(71, 91)
+        Me.Button3.TabIndex = 28
+        Me.Button3.Text = "Save"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.PictureBox1.Location = New System.Drawing.Point(562, 50)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(238, 184)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 29
+        Me.PictureBox1.TabStop = False
+        '
+        'OpenFileDialog1
+        '
+        Me.OpenFileDialog1.FileName = "OpenFileDialog1"
+        '
+        'txtImageNme
+        '
+        Me.txtImageNme.Location = New System.Drawing.Point(481, 249)
+        Me.txtImageNme.Name = "txtImageNme"
+        Me.txtImageNme.Size = New System.Drawing.Size(292, 20)
+        Me.txtImageNme.TabIndex = 31
+        '
         'VisitorEditProfile
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(771, 443)
+        Me.ClientSize = New System.Drawing.Size(1016, 443)
+        Me.Controls.Add(Me.txtImageNme)
+        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.RadioButton2)
+        Me.Controls.Add(Me.RadioButton1)
         Me.Controls.Add(Me.txtIC)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.lblID2)
@@ -266,7 +335,6 @@ Partial Class VisitorEditProfile
         Me.Controls.Add(Me.txtVisitorAddress)
         Me.Controls.Add(Me.txtDateOfBirth)
         Me.Controls.Add(Me.txtMobileNO)
-        Me.Controls.Add(Me.txtGender)
         Me.Controls.Add(Me.txtLastName)
         Me.Controls.Add(Me.txtFirstName)
         Me.Controls.Add(Me.Label6)
@@ -277,6 +345,7 @@ Partial Class VisitorEditProfile
         Me.Controls.Add(Me.Label2)
         Me.Name = "VisitorEditProfile"
         Me.Text = "VisitorEditProfile"
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -289,7 +358,6 @@ Partial Class VisitorEditProfile
     Friend WithEvents Label6 As System.Windows.Forms.Label
     Friend WithEvents txtFirstName As System.Windows.Forms.TextBox
     Friend WithEvents txtLastName As System.Windows.Forms.TextBox
-    Friend WithEvents txtGender As System.Windows.Forms.TextBox
     Friend WithEvents txtMobileNO As System.Windows.Forms.TextBox
     Friend WithEvents txtDateOfBirth As System.Windows.Forms.TextBox
     Friend WithEvents txtVisitorAddress As System.Windows.Forms.TextBox
@@ -303,4 +371,11 @@ Partial Class VisitorEditProfile
     Friend WithEvents lblID2 As System.Windows.Forms.Label
     Friend WithEvents Label8 As System.Windows.Forms.Label
     Friend WithEvents txtIC As System.Windows.Forms.TextBox
+    Friend WithEvents RadioButton1 As System.Windows.Forms.RadioButton
+    Friend WithEvents RadioButton2 As System.Windows.Forms.RadioButton
+    Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents Button3 As System.Windows.Forms.Button
+    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+    Friend WithEvents OpenFileDialog1 As System.Windows.Forms.OpenFileDialog
+    Friend WithEvents txtImageNme As System.Windows.Forms.TextBox
 End Class
