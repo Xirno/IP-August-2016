@@ -121,6 +121,24 @@
     <Compile Include="%282.1.1%29HouseOwnerEditProfile.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="%283%29Login.Designer.vb">
+      <DependentUpon>%283%29Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="%283%29Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FindPassword.Designer.vb">
+      <DependentUpon>FindPassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FindPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FoundPassword.Designer.vb">
+      <DependentUpon>FoundPassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FoundPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -225,6 +243,9 @@
     <EmbeddedResource Include="%281%29MainPage.resx">
       <DependentUpon>%281%29MainPage.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="%283%29Login.resx">
+      <DependentUpon>%283%29Login.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="%283.2.3%29VisitorApplyPassPrint.resx">
       <DependentUpon>%283.2.3%29VisitorApplyPassPrint.vb</DependentUpon>
     </EmbeddedResource>
@@ -239,6 +260,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="%282.1.1%29HouseOwnerEditProfile.resx">
       <DependentUpon>%282.1.1%29HouseOwnerEditProfile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FindPassword.resx">
+      <DependentUpon>FindPassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FoundPassword.resx">
+      <DependentUpon>FoundPassword.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

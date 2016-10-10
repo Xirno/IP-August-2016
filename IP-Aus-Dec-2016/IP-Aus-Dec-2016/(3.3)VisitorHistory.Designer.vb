@@ -39,13 +39,13 @@ Partial Class VisitorHistory
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.txtGatePass = New System.Windows.Forms.TextBox()
-        Me.txtTimeIn = New System.Windows.Forms.TextBox()
-        Me.txtTimeOut = New System.Windows.Forms.TextBox()
-        Me.txtVisitorName = New System.Windows.Forms.TextBox()
-        Me.txtVisitDate = New System.Windows.Forms.TextBox()
-        Me.txtApproved = New System.Windows.Forms.TextBox()
         Me.txtVisitAddress = New System.Windows.Forms.TextBox()
+        Me.txtApproved = New System.Windows.Forms.TextBox()
+        Me.txtVisitDate = New System.Windows.Forms.TextBox()
+        Me.txtVisitorName = New System.Windows.Forms.TextBox()
+        Me.txtTimeOut = New System.Windows.Forms.TextBox()
+        Me.txtTimeIn = New System.Windows.Forms.TextBox()
+        Me.txtGatePass = New System.Windows.Forms.TextBox()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
@@ -232,45 +232,13 @@ Partial Class VisitorHistory
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Visitor Visited History"
         '
-        'txtGatePass
+        'txtVisitAddress
         '
-        Me.txtGatePass.Enabled = False
-        Me.txtGatePass.Location = New System.Drawing.Point(172, 74)
-        Me.txtGatePass.Name = "txtGatePass"
-        Me.txtGatePass.Size = New System.Drawing.Size(163, 31)
-        Me.txtGatePass.TabIndex = 17
-        '
-        'txtTimeIn
-        '
-        Me.txtTimeIn.Enabled = False
-        Me.txtTimeIn.Location = New System.Drawing.Point(172, 150)
-        Me.txtTimeIn.Name = "txtTimeIn"
-        Me.txtTimeIn.Size = New System.Drawing.Size(163, 31)
-        Me.txtTimeIn.TabIndex = 18
-        '
-        'txtTimeOut
-        '
-        Me.txtTimeOut.Enabled = False
-        Me.txtTimeOut.Location = New System.Drawing.Point(475, 153)
-        Me.txtTimeOut.Name = "txtTimeOut"
-        Me.txtTimeOut.Size = New System.Drawing.Size(163, 31)
-        Me.txtTimeOut.TabIndex = 19
-        '
-        'txtVisitorName
-        '
-        Me.txtVisitorName.Enabled = False
-        Me.txtVisitorName.Location = New System.Drawing.Point(475, 77)
-        Me.txtVisitorName.Name = "txtVisitorName"
-        Me.txtVisitorName.Size = New System.Drawing.Size(163, 31)
-        Me.txtVisitorName.TabIndex = 20
-        '
-        'txtVisitDate
-        '
-        Me.txtVisitDate.Enabled = False
-        Me.txtVisitDate.Location = New System.Drawing.Point(785, 150)
-        Me.txtVisitDate.Name = "txtVisitDate"
-        Me.txtVisitDate.Size = New System.Drawing.Size(163, 31)
-        Me.txtVisitDate.TabIndex = 21
+        Me.txtVisitAddress.Enabled = False
+        Me.txtVisitAddress.Location = New System.Drawing.Point(172, 248)
+        Me.txtVisitAddress.Name = "txtVisitAddress"
+        Me.txtVisitAddress.Size = New System.Drawing.Size(776, 31)
+        Me.txtVisitAddress.TabIndex = 23
         '
         'txtApproved
         '
@@ -280,13 +248,45 @@ Partial Class VisitorHistory
         Me.txtApproved.Size = New System.Drawing.Size(163, 31)
         Me.txtApproved.TabIndex = 22
         '
-        'txtVisitAddress
+        'txtVisitDate
         '
-        Me.txtVisitAddress.Enabled = False
-        Me.txtVisitAddress.Location = New System.Drawing.Point(172, 248)
-        Me.txtVisitAddress.Name = "txtVisitAddress"
-        Me.txtVisitAddress.Size = New System.Drawing.Size(776, 31)
-        Me.txtVisitAddress.TabIndex = 23
+        Me.txtVisitDate.Enabled = False
+        Me.txtVisitDate.Location = New System.Drawing.Point(785, 150)
+        Me.txtVisitDate.Name = "txtVisitDate"
+        Me.txtVisitDate.Size = New System.Drawing.Size(163, 31)
+        Me.txtVisitDate.TabIndex = 21
+        '
+        'txtVisitorName
+        '
+        Me.txtVisitorName.Enabled = False
+        Me.txtVisitorName.Location = New System.Drawing.Point(475, 77)
+        Me.txtVisitorName.Name = "txtVisitorName"
+        Me.txtVisitorName.Size = New System.Drawing.Size(163, 31)
+        Me.txtVisitorName.TabIndex = 20
+        '
+        'txtTimeOut
+        '
+        Me.txtTimeOut.Enabled = False
+        Me.txtTimeOut.Location = New System.Drawing.Point(475, 153)
+        Me.txtTimeOut.Name = "txtTimeOut"
+        Me.txtTimeOut.Size = New System.Drawing.Size(163, 31)
+        Me.txtTimeOut.TabIndex = 19
+        '
+        'txtTimeIn
+        '
+        Me.txtTimeIn.Enabled = False
+        Me.txtTimeIn.Location = New System.Drawing.Point(172, 150)
+        Me.txtTimeIn.Name = "txtTimeIn"
+        Me.txtTimeIn.Size = New System.Drawing.Size(163, 31)
+        Me.txtTimeIn.TabIndex = 18
+        '
+        'txtGatePass
+        '
+        Me.txtGatePass.Enabled = False
+        Me.txtGatePass.Location = New System.Drawing.Point(172, 74)
+        Me.txtGatePass.Name = "txtGatePass"
+        Me.txtGatePass.Size = New System.Drawing.Size(163, 31)
+        Me.txtGatePass.TabIndex = 17
         '
         'VisitorHistory
         '

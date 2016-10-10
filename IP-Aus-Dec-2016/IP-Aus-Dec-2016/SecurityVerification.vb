@@ -5,8 +5,8 @@ Public Class SecurityVerification
     Dim connString As String
     Dim conn As OleDbConnection = New OleDbConnection
     Private Sub btnBack_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnBack.Click
-        HouseOwnerProfile.Show()
-        Me.Close()
+        SecurityControlPanel.Show()
+        Me.Hide()
     End Sub
 
     Private Sub Form4_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load

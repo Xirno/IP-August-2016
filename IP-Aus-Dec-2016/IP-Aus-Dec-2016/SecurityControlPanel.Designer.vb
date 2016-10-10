@@ -26,15 +26,17 @@ Partial Class SecurityControlPanel
         Me.lblTime = New System.Windows.Forms.Label()
         Me.lblLog = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.btnApply = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.BtnVer = New System.Windows.Forms.Button()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.lblName = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'lblTime
         '
         Me.lblTime.AutoSize = True
-        Me.lblTime.Location = New System.Drawing.Point(475, 358)
+        Me.lblTime.Location = New System.Drawing.Point(475, 338)
         Me.lblTime.Name = "lblTime"
         Me.lblTime.Size = New System.Drawing.Size(30, 13)
         Me.lblTime.TabIndex = 10
@@ -43,8 +45,7 @@ Partial Class SecurityControlPanel
         'lblLog
         '
         Me.lblLog.AutoSize = True
-        Me.lblLog.ForeColor = System.Drawing.Color.Blue
-        Me.lblLog.Location = New System.Drawing.Point(475, 144)
+        Me.lblLog.Location = New System.Drawing.Point(475, 177)
         Me.lblLog.Name = "lblLog"
         Me.lblLog.Size = New System.Drawing.Size(98, 13)
         Me.lblLog.TabIndex = 9
@@ -53,19 +54,21 @@ Partial Class SecurityControlPanel
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(475, 97)
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(362, 116)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(0, 13)
+        Me.Label1.Size = New System.Drawing.Size(52, 25)
         Me.Label1.TabIndex = 8
+        Me.Label1.Text = "*****"
         '
-        'btnApply
+        'Button2
         '
-        Me.btnApply.Location = New System.Drawing.Point(78, 304)
-        Me.btnApply.Name = "btnApply"
-        Me.btnApply.Size = New System.Drawing.Size(218, 47)
-        Me.btnApply.TabIndex = 7
-        Me.btnApply.Text = "Apply for Visitor Gate Pass"
-        Me.btnApply.UseVisualStyleBackColor = True
+        Me.Button2.Location = New System.Drawing.Point(78, 304)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(218, 47)
+        Me.Button2.TabIndex = 7
+        Me.Button2.Text = "Apply for Visitor Gate Pass"
+        Me.Button2.UseVisualStyleBackColor = True
         '
         'BtnVer
         '
@@ -79,15 +82,36 @@ Partial Class SecurityControlPanel
         'Timer1
         '
         '
+        'lblName
+        '
+        Me.lblName.AutoSize = True
+        Me.lblName.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblName.Location = New System.Drawing.Point(363, 53)
+        Me.lblName.Name = "lblName"
+        Me.lblName.Size = New System.Drawing.Size(66, 24)
+        Me.lblName.TabIndex = 11
+        Me.lblName.Text = "Label2"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(364, 159)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(39, 13)
+        Me.Label2.TabIndex = 12
+        Me.Label2.Text = "Label2"
+        '
         'SecurityControlPanel
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(650, 467)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.lblName)
         Me.Controls.Add(Me.lblTime)
         Me.Controls.Add(Me.lblLog)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.btnApply)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.BtnVer)
         Me.Name = "SecurityControlPanel"
         Me.Text = "SecurityControlPanel"
@@ -99,7 +123,9 @@ Partial Class SecurityControlPanel
     Friend WithEvents lblTime As Label
     Friend WithEvents lblLog As Label
     Friend WithEvents Label1 As Label
-    Friend WithEvents btnApply As Button
+    Friend WithEvents Button2 As Button
     Friend WithEvents BtnVer As Button
     Friend WithEvents Timer1 As Timer
+    Friend WithEvents lblName As System.Windows.Forms.Label
+    Friend WithEvents Label2 As System.Windows.Forms.Label
 End Class
